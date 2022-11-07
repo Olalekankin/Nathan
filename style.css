@@ -340,7 +340,7 @@ main{
 
     .content-grid{
         display: block;
-        padding: 120px 0 0 80px;
+        padding: 100px 0 0 80px;
     }
     .content-grid h3{
         font-family: 'Roboto';
@@ -348,6 +348,7 @@ main{
         font-weight: 400;
         font-size: 36px;
         line-height: 42px;
+        margin-bottom: 30px;
     }
     .content-grid h1{
         font-size: 56px;
@@ -389,6 +390,7 @@ main{
     .image-grid img{
         width: 550px;
         height: 550px;
+        
     }
 
     .image-grid{
@@ -436,4 +438,22 @@ main{
             border-top: 7px solid #09f172;  
         }
     }
+
+    /* @keyframes rotate {
+        0%{
+            transform: rotate(0deg);
+        }
+        25%{
+            transform: rotate(90deg); 
+        }
+        50%{
+            transform: rotate(180deg); 
+        }
+        75%{
+            transform: rotate(270deg); 
+        }
+        100%{
+            transform: rotate(359deg); 
+        }
+    } */
 } 
